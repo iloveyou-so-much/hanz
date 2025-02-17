@@ -3,7 +3,7 @@ const feedbackMessages = [
   "Choose again 😜",
   "Not quite! Try again 🤔",
   "Again. 🙂",
-  "You're testing my patience... 😤",
+  "I thought you love me... ",
   "...............",
   "Oh, yeah?🙃",
 ];

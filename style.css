@@ -98,7 +98,7 @@ span::before {
     top: 0;
     left: 0;
     padding: 0 2rem;
-    background: url(disc-photo.jpg) center;
+    background: url(disc-photo.PNG) center;
     background-size: cover;
     /* border: 1px solid yellow; */
     z-index: 1000;
@@ -170,6 +170,7 @@ span::before {
 .yes-btn {
     width: 75%;
     background: var(--letter);
+    margin-bottom: 1rem;
     animation: pulse 1s infinite alternate;
 }
 
@@ -237,7 +238,7 @@ span::before {
     height: 150px;
     top: 200%;
     left: 150%;
-    background: url(photo-1.jpg);
+    background: url(photo-1.JPG);
     background-size: cover;
     z-index: 2;
     /* animation: movePhoto1 2.5s linear forwards; */
@@ -248,7 +249,7 @@ span::before {
     height: 150px;
     top: 150%;
     left: 10%;
-    background: url(photo-2.jpg);
+    background: url(photo-2.PNG);
     background-size: cover;
     z-index: 1;
     /* animation: movePhoto2 2s linear forwards; */
@@ -259,7 +260,7 @@ span::before {
     height: 130px;
     top: 20%;
     left: -105%;
-    background: url(photo-3.jpg);
+    background: url(disc-photo.PNG);
     background-size: cover;
     /* animation: movePhoto3 1s linear forwards; */
 }
@@ -269,8 +270,9 @@ span::before {
     height: 120px;
     top: 50%;
     left: 12%;
-    background: url(photo-4.jpg);
+    background: url(photo-4.PNG);
     background-size: cover;
+    background-position-y: 20%;
     /* animation: movePhoto4 1.5s linear forwards; */
 }
 
@@ -304,7 +306,7 @@ span::before {
         left: 150%;
     }
     100% {
-        top: 45%;
+        top: 42%;
         left: 58%;
     }
 }
@@ -315,8 +317,8 @@ span::before {
         left: -105%;
     }
     100% {
-        top: 30%;
-        left: 40%;
+        top: 27%;
+        left: 45%;
     }
 }
 
@@ -455,7 +457,7 @@ span::before {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: url(disc-photo.jpg);
+    background: url(disc-photo.PNG);
     background-size: cover;
     z-index: 1;
 }
@@ -557,6 +559,9 @@ span::before {
     border-radius: 15px;
     background: #ff7179;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: all 1s ease-in-out;
     box-shadow: 0 0 5px var(--shadow-color);
     padding: 20px 10px;
@@ -740,3 +745,10 @@ span::before {
         transform: translateY(0);
     }
 } */
+
+#prompt,
+#promptMessage {
+    outline: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
