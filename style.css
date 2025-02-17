@@ -238,7 +238,7 @@ span::before {
     height: 150px;
     top: 200%;
     left: 150%;
-    background: url(photo-1.JPG);
+    background: url(photo-1.PNG);
     background-size: cover;
     z-index: 2;
     /* animation: movePhoto1 2.5s linear forwards; */
